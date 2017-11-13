@@ -7,13 +7,13 @@ Q: How is the staging area different from the working directory and the
 repository? What value do you think it offers?
 
 A: The staging area is a logical/virtual zone that serves as a bucket to
-commit several files in one shot. If one programes in C, usally one has to 
-modify a header hile .h and a source file .c when one creates a new function.
+commit several files in one shot. If one programes in C, usally one has to modify a header hile .h and a source file .c when one creates a new function.
 So both files must be commited together because they are logically related
 to each other and they act as a block for the new function.
  
-Q: How can you use the staging area to make sure you have one commit per logical
-change?
+Q: How can you use the staging area to make sure you have one commit per logical change?
+
+A: By modifying only the nescessary files with only the necessary changes that are requiered by a logical change. Then add the relevant files to tha stagging area and commit immedialty before dealing with the next logical change.
 
 Q: What are some situations when branches would be helpful in keeping your 
 history organized? How would branches help?
