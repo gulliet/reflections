@@ -23,8 +23,9 @@ Q: How do the diagrams help you visualize the branch structure?
 
 A: Branches are structured like a tree so we can visualize the trunk (the master branch) and the branches and leaves. It also helps in visualizing where we are at the moment (checkout).
 
-Q: What is the result of merging two branches together? Why do we represent 
-it in the diagram the way we do?
+Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+A: The commits of both branches are taken into account to form only one branch (with the label of the working directory). The resulting commit has two parents indeed, this is what is shown in the diagram.
 
 Q: What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
