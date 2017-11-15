@@ -27,5 +27,11 @@ Q: What is the result of merging two branches together? Why do we represent it i
 
 A: The commits of both branches are taken into account to form only one branch (with the label of the working directory). The resulting commit has two parents indeed, this is what is shown in the diagram.
 
-Q: What are the pros and cons of Git's automatic merging vs. always doing merges
-manually?
+Q: What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+A:		    |	Pros 				|			Cons 			|
+			|-----------------------|---------------------------|
+Automatic 	| 	Hassle free!		|	might overlook conflicts|
+			|-----------------------|---------------------------|
+Manual 		|	conflicts management|	error prone				|
+			|-----------------------|---------------------------|
