@@ -9,7 +9,12 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    If Git were pushing and pulling new files everytine a local commit
+    is done, it would be a nightmare in a collaborative environment!
+    Imagine a project for which 15 developers work togthere. After each
+    local commit, the 14 other people would be force to interrupt their
+    working flow to update their repositories and deal with whatever
+    conflit occured. 
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
