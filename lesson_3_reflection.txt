@@ -29,7 +29,9 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    This allows Git to know how many steps (commits) we are ahead of 
+    the remote. Also, when we want to push to or pull from the remote
+    Git can check whether the common ancestor has changed on the remote.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
