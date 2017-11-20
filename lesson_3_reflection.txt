@@ -36,7 +36,11 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    By making frequent local copies of the whole project and 
+    assigning manually one and only-one developer per sub-project. 
+    The merge procedure will be by copying by hand the requirered 
+    directories and files, and if the compilation failed, then 
+    we could use eamils or phone call to solve the issue.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
